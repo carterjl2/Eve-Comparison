@@ -1,6 +1,6 @@
 This needs a table in a database called evesupport, that has a list of multiple eve databases in it. 
 
-REATE TABLE `dbversions` (
+CREATE TABLE `dbversions` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `version` varchar(255) DEFAULT NULL,
   `name` varchar(255) DEFAULT NULL,
